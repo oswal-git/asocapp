@@ -1,6 +1,5 @@
 import 'package:asocapp/core/utils/extensions.dart';
 import 'package:asocapp/features/auth/presentation/widgets/egl_custom_drop_list_widget.dart';
-import 'package:asocapp/features/auth/presentation/widgets/egl_dropdown_form_field_widget.dart';
 import 'package:asocapp/features/auth/presentation/widgets/egl_input_text_field_widget.dart';
 // import 'package:asocapp/features/auth/presentation/widgets/egl_input_text_field_widget.dart';
 import 'package:asocapp/generated/l10n.dart';
@@ -19,12 +18,6 @@ class _EglFormUIWidgetState extends State<EglFormUIWidget> {
   final asociationController = TextEditingController();
   final formKey = GlobalKey<FormState>();
   String idAsociaton = '';
-  List<DropdownFromFieldItem> listDropDownItems = [
-    DropdownFromFieldItem(id: 1, text: 'Asociation 1'),
-    DropdownFromFieldItem(id: 2, text: 'Asociation 2'),
-    DropdownFromFieldItem(id: 3, text: 'Asociation 3'),
-    DropdownFromFieldItem(id: 4, text: 'Asociation 4'),
-  ];
 
   List<Item> listItems = [
     Item(id: 1, icon: Icons.home, text: 'Casa'),

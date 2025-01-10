@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.asocapp-mergeDebugResources-29:/values-xlarge-v4/values-xlarge-v4.xml",
+            "outputFile": "com.example.asocapp-mergeDebugResources-39:/values-xlarge-v4/values-xlarge-v4.xml",
             "map": [
                 {
                     "source": "C:\\Users\\oswal\\.gradle\\caches\\transforms-3\\be1e410d8825ea570d651ce0734433c5\\transformed\\appcompat-1.2.0\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
